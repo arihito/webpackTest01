@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack src/index.js public/bundle.js"
+    "build": "webpack --module-bind js=babel-loader src/index.js public/bundle.js"
+  },
+  "babel": {
+    "presets": [
+      ["es2015", { "modules": false }]
+    ]
   },
   "keywords": [],
   "author": "",

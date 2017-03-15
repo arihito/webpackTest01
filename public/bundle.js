@@ -14919,7 +14919,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 var render = function render() {
-  document.getElementsByName('app').innerHTML = 'The time now is ' + __WEBPACK_IMPORTED_MODULE_0_moment___default()().toString();
+  document.getElementsByName('app').innerHTML = 'The times now is ' + __WEBPACK_IMPORTED_MODULE_0_moment___default()().toString();
 };
 
 render();
